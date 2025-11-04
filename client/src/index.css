@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #000; /* Alto contraste padrão */
+  color: #fff;
+  line-height: 1.6;
+}
+
+button {
+  min-height: 48px; /* Botões grandes para acessibilidade */
+  min-width: 48px;
+}
